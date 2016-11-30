@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_popup_window_bg">
+
+    <TextView
+        android:id="@+id/yiba_wifi_manager_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:maxEms="10"
+        android:padding="20dp"
+        android:text="这是一个弹窗，用来测试。\n"
+        android:textColor="#ff000000" />
+
+</LinearLayout>

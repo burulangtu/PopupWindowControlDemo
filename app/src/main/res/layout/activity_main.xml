@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_parentLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/popup_window_5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:text="测试" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="0:no gravity \n1: left \n2:top \n3:right \n4:bottom \n5:center \n6:left|top \n7：left|bottom \n8:right|top \n9:right|bttom \n10:right|left \n11:top|bttom" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/x"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="x"
+            android:inputType="numberSigned"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/y"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="y"
+            android:inputType="numberSigned"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/gravity"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="gravity"
+            android:inputType="numberSigned"
+            android:text="0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/popup_window_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="showAtLocation" />
+
+    <Button
+        android:id="@+id/popup_window_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="showAsDropDown(View anchor)" />
+
+    <Button
+        android:id="@+id/popup_window_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="showAsDropDown(View anchor, int xoff, int yoff)" />
+
+    <Button
+        android:id="@+id/popup_window_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="showAsDropDown(View anchor, int xoff, int yoff, int gravity)" />
+</LinearLayout>
